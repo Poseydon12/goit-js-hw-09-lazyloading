@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW9-LazyLoad</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Галерея</h1>
+    <button id="startLoad">Завантажити зображення</button>
+
+    <div class="gallery">
+      <img
+        src="./img/istockphoto-458565983-612x612.jpg"
+        alt=""
+        width="600"
+        loading="lazy"
+      />
+      <img
+        src="./img/istockphoto-458724083-612x612.jpg"
+        alt=""
+        width="600"
+        loading="lazy"
+      />
+      <img
+        src="img/istockphoto-458732021-612x612.jpg"
+        alt=""
+        width="600"
+        loading="lazy"
+      />
+    </div>
+
+    <script src="./js/lazyload.js" type="module"></script>
+  </body>
+</html>
